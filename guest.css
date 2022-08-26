@@ -1,0 +1,137 @@
+body
+{
+    background-color:rgb(246, 248, 246);
+    font-family: Arial, Helvetica, sans-serif;
+}
+input
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    font-size: 1.5em;
+    outline: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    border-top: none;
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+    border-right: solid 1px;
+    border-color:rgb(7, 6, 6);
+    background: transparent;
+    display: block;
+    height: 2em;
+    width: 12em;
+    margin-bottom: 5%;
+    padding: 0 3%;
+    position: relative;
+    z-index: 0;
+    -webkit-transition: border .25s;
+    -moz-transition: border .25s;
+    -o-transition: border .25;
+    transition: border .25s;
+}
+
+#headguest,#headreq
+{
+    color: green;
+     text-align: center;
+    font-size: 40px;
+}
+#guestmainpara
+{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: grey
+}
+
+#quo
+{
+    margin-left: 40px;
+    float: left;
+    
+}
+form
+{
+    margin: 12% auto;
+    width: 19em;
+    text-align: center;
+    position: relative;
+    -webkit-animation: moveDown .3s;
+    -moz-animation: moveDown .3s;
+
+}
+#subbtn,.choice
+{
+    background:#ce3232;
+    border-radius:0;
+    border:0;
+    color:#f9f9f9;
+    font-size:inherit;
+    font-weight: normal;
+    padding:10px 25px;
+    transition:0.5s 0.2s; 
+}
+#subbtn:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 21px white;
+    border-bottom: solid 41px transparent;
+    z-index: 1;
+    transition: .4s;
+}
+#subbtn:after{
+        position: absolute;
+        content: '';
+        right: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+        border: none;
+        border-left: solid 21px transparent;
+        border-bottom: solid 41px white;
+        z-index: 1;
+        transition: .4s;
+}
+#subbtn:hover{
+    border-left-width: 25px;
+}
+
+#subbtn:hover{
+    background: #2c3148;
+}
+#headdonate,#headreq
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.donatepara,.reqpara
+{
+    text-align: center;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
